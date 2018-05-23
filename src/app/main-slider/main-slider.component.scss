@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    padding-top: 15%;
+}
+
+input[type="text"]{
+    width: 50%;
+}
+
+.searching{
+    color: white;
+    background-color: #4dadbb;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    top: auto;
+    border: none;
+    height: 100%;
+}
+.formSearch{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    position:relative;
+}
+.allCategories{
+    background-color: #f9f9f9;
+    border: none;
+}
+
+.downButton{
+    padding: 20% 30%;
+}
