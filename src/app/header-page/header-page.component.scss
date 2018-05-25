@@ -1,21 +1,25 @@
-.container-fluid{
+.container{
     background-color: #e4e5e9;
- 
+    height: 76px;
+    width: 100%;
 }
 
 .imgLogo{
-    padding: 2% 0%;
-    margin-left: 28%;
-}
-nav {
-} 
-nav a{
-    color: black;
-    display: block;
-    padding-right: 10%;
+    width: 273px;
+    height: 76px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
-nav ul{
-    padding-right: 5%;
-    
+nav ul li a{
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 32px;
+    padding-bottom: auto;
+    padding-left: 45px;
 }
+nav{
+    margin-right: 183px;
+}
+
