@@ -7,6 +7,7 @@ import { MainSliderComponent } from './main-slider/main-slider.component';
 import { MostPopularProductComponent } from './most-popular-product/most-popular-product.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { FooterComponent } from './footer/footer.component';
+import { JQueryComponent } from '../assets/js/jquery.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     MainSliderComponent,
     MostPopularProductComponent,
     TestimonialsComponent,
-    FooterComponent
+    FooterComponent,
+    JQueryComponent
   ],
   imports: [
     BrowserModule,

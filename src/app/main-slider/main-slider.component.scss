@@ -31,13 +31,19 @@ input[type="text"]{
 .downButton{
     padding: 20% 30%;
 }
-.container-fluid{
-    background: url("/assets/img/fon.png") no-repeat;
-}
+
 p{
     text-align: center;
     font-size: 18px;
 }
 select{
     background-color: aqua;
+}
+
+.btn{
+    background-color: #dfe1e2;
+    border: none;
+    opacity: 0.8;
+    color: #6ca964;
+    height: 70px;
 }
