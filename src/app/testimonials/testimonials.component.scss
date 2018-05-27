@@ -82,29 +82,24 @@
 	background: #bbb;
 }*/
 .container-fluid{
-	height:1000px;
+	height:830px;
 	width: 100%;
 	background-color: #4dadbb;
 }
+
 .carousel{
-	padding-right: 400px;
-	padding-top: -100px;
+	margin-top: -25%;
+	margin-left: 10%;
+	width: 80%;
 }
-.PhotoCenter{
-	width: 710px;
-	height: 400px;
-	background-color: aqua;
+
+#prev{
+	padding-left: 10%;
+	margin-top: 30%;
+	
 }
-.PhotoCenter{
-	width: 710px;
-	height: 400px;
-	background-color: blue;
+
+#next{
+	margin-left: 90%;
 }
-.PhotoLeft{
-	width: 710px;
-	height: 400px;
-	background-color: brown;
-}
-.btn{
-padding-top: 250px;
-}
+
