@@ -1,4 +1,4 @@
-.contaner-fluid {
+/*.contaner-fluid {
 	height: 100%;
 	padding: 0;
 	margin: 0;
@@ -80,4 +80,16 @@
 #prev:hover,
 #next:hover {
 	background: #bbb;
+}*/
+.container-fluid{
+	height:1000px;
+	width: 100%;
+	background-color: #4dadbb;
+}
+.carousel{
+	padding-right: 400px;
+	padding-top: -400px;
+}
+.PhotoCenter{
+	
 }

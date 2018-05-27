@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-declare var jQuery:any;
+import { Component, OnInit, ElementRef } from '@angular/core';
+declare var jQuery: any;
 declare var test: any;
 declare var $: any;
 import * as $ from "jquery";
@@ -10,18 +10,30 @@ import * as $ from "jquery";
 })
 export class TestimonialsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _elementRef: ElementRef) { }
 
-  public ngOnInit() {
-
-    $('.one-time').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      adaptiveHeight: true
+  ngOnInit() {
+    $(document).ready(function(){
+      var carousel=$(".carousel").waterwheelCarousel({
+        flankingItems:3
+      });
+      $("#prev").bind("click",function(){
+        carousel.prev();
+        return false;
+      });
+      $("#next").bind("click",function(){
+        carousel.next();
+        return false;
+      });
+      
     });
+  }
 
+  ngAfterViewInit() {
+    var jquery = document.createElement("script");
+    jquery.type = "text/javascript";
+    jquery.src = "../assets/js/jquery.waterwheelCarousel.min.js";
+    this._elementRef.nativeElement.appendChild(jquery);
   }
 
 }
