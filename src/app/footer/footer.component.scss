@@ -24,11 +24,16 @@
 .findParrot{
     background-color: #272727;
     margin: 0% -1%;
-    height: 10%;
+    padding: 2%;
 }
 .logoFindParrot{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 0%;
+    color: #dadada;
+    margin: 0;
+    padding: 0;
+    height: 10%;;
+    float:right;
+    padding-left: 3px;
+}
+i{
+    color: #dadada;
 }

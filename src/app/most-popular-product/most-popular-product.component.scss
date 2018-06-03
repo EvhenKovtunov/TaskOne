@@ -26,9 +26,17 @@ a{
 }
 
 img{
-    width: 25%;
     height: 100%;
-    margin-right: 5%;
-    padding-bottom: 5%;
+    width: 100%;
+  
+ 
 }
 
+.caption {text-align:left;margin-top:4px;font-size:12px; }
+
+.img-frame-cap {
+    height: 80%;
+    width: 42%;
+    background:red;
+    padding:2% 2% 3% 2%;
+    border:0px solid red; }
