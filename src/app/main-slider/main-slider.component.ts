@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './main-slider.component.html',
   styleUrls: ['./main-slider.component.scss']
 })
-export class MainSliderComponent implements OnInit {
+export class MainSliderComponent {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+ 
 
 }

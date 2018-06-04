@@ -27,10 +27,6 @@ h1{
     border: none;
     opacity: 0.8;
     color: #3FAB61;
-    height: 70px;
-    background-size: cover;
-    margin-top: 50%;
-    margin-bottom: 40px;
 }
 
 
@@ -86,3 +82,10 @@ form{
 }
 
 
+.img{
+    float: left;
+}
+
+.flex-center{
+    height: 200px;
+ }

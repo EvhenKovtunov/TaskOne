@@ -1,41 +1,18 @@
-<div class="container-fluid">
+<div class="container">
   <h2>Most Popular Products</h2>
   <p>This is the list of products that are most interested in user</p>
   <div class="row">
-    <div class="col-md-8 offset-md-2">
-            <div class="img-frame-cap">
-              <img src="../assets/img/testImageFour.png" alt="image name">
-              <div class="caption">Pink Rose</div>
-              </div>
-              <!--<div class="img-frame-cap">
-                <img src="../assets/img/testImageFour.png" alt="image name">
-                <div class="caption">Pink Rose</div>
-                </div>
-                <div class="img-frame-cap">
-                  <img src="../assets/img/testImageFour.png" alt="image name">
-                  <div class="caption">Pink Rose</div>
-                  </div>-->
-     <!-- <img src="../assets/img/testImageOne.png" alt="test">
-      <img src="../assets/img/testImageTwo.png" alt="test">
-      <img src="../assets/img/testImageThree.png" alt="test">-->
-    </div>
-    <div class="col-md-8 offset-md-2">
-     <!-- <div class="img-frame-cap">
-        <img src="../assets/img/testImageFour.png" alt="image name">
-        <div class="caption">Pink Rose</div>
-        </div>
-        <div class="img-frame-cap">
-          <img src="../assets/img/testImageFour.png" alt="image name">
-          <div class="caption">Pink Rose</div>
+    <div class="col-md-4 "  *ngFor="let image of items " >
+        <div class="card mb-2 mt-2">
+            <img src="{{image.name}}" class="img-fluid pl-2 pt-2 pr-2">
+          <div class="card-body" style="height: 80px;" >
+            <p class="float-left pb-4" style="color: silver;"> {{image.labelNam}}
+             </p>
+         
           </div>
-          <div class="img-frame-cap">
-            <img src="../assets/img/testImageFour.png" alt="image name">
-            <div class="caption">Pink Rose</div>
-            </div>-->
-     <!-- <img src="../assets/img/testImageFive.png" alt="test">
-      <img src="../assets/img/testImageSix.png" alt="test">-->
+        </div>
     </div>
   </div>
-  <a href="">All Products</a>
+  <a href="#">All Products</a>
  
 </div>

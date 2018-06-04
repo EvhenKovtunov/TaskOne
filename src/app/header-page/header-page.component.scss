@@ -12,14 +12,15 @@
     height: 70px;
     object-fit: contain;
 }
-
+nav{
+    padding-top: 8%;
+}
 
 nav ul li a{
     color: black;
-    display: inline-block;
+    display: inline;
     font-size: 14px;
-    float: none; 
-    padding-top: 30px;
+
 }
 
 
