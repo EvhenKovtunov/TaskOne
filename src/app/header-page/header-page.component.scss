@@ -1,8 +1,5 @@
-.container-fluid{
-    background-color: #e4e5e9;
-    height: 76px;
-    position: fixed; 
-    z-index: 999;
+mdb-navbar{
+    background-color: #e4e5e9!important;
 }
 
 .imgLogo{
@@ -21,6 +18,15 @@ nav ul li a{
     display: inline;
     font-size: 14px;
 
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1){
+    .ml-auto{
+        text-align: center;
+    }
 }
 
 
