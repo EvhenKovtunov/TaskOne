@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef } from '@angular/core';
+import { Component, OnInit, ElementRef,ChangeDetectorRef, Renderer, ViewChild } from '@angular/core';
 declare var test: any;
 
 
@@ -8,8 +8,7 @@ declare var test: any;
   styleUrls: ['./testimonials.component.scss']
 })
 export class TestimonialsComponent implements OnInit {
-
-
+ 
   ngAfterViewInit(): void {
     this.loadScript('assets/js/slider.js');
   }
@@ -21,31 +20,8 @@ export class TestimonialsComponent implements OnInit {
     node.type = 'text/javascript';
     document.getElementsByTagName('head')[0].appendChild(node);
  }
-
   constructor(private _elementRef: ElementRef) { }
 
   ngOnInit() {
-   /* $(document).ready(function(){
-      var carousel=$(".carousel").waterwheelCarousel({
-        flankingItems:3
-      });
-      $("#prev").bind("click",function(){
-        carousel.prev();
-        return false;
-      });
-      $("#next").bind("click",function(){
-        carousel.next();
-        return false;
-      });
-      
-    });*/
   }
-
- /* ngAfterViewInit() {
-    var jquery = document.createElement("script");
-    jquery.type = "text/javascript";
-    jquery.src = "../assets/js/jquery.waterwheelCarousel.min.js";
-    this._elementRef.nativeElement.appendChild(jquery);
-  }*/
-
 }
