@@ -7,7 +7,8 @@ import { MainSliderComponent } from './main-slider/main-slider.component';
 import { MostPopularProductComponent } from './most-popular-product/most-popular-product.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { SwiperModule } from 'angular2-useful-swiper';
+ 
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -21,9 +21,13 @@ var swiper_slider = new Swiper('.swiper-container', {
       slidesPerView: 2
     }
   },
-  simulateTouch: true,
+ /* navigation: {
+    nextEl: '.arrow-right',
+    prevEl: '.arrow-left',
+  },*/
   prevButton: '.arrow-left',
-  nextButton: '.arrow-right'
+  nextButton: '.arrow-right',
+  simulateTouch: true,
 });
 
 function openNav() {
